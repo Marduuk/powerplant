@@ -1,0 +1,15 @@
+<!-- src/Resources/config/doctrine/Product.mongodb.xml -->
+<doctrine-mongo-mapping xmlns="http://doctrine-project.org/schemas/odm/doctrine-mongo-mapping"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xsi:schemaLocation="http://doctrine-project.org/schemas/odm/doctrine-mongo-mapping
+                    https://doctrine-project.org/schemas/odm/doctrine-mongo-mapping.xsd">
+
+    <document name="App\Document\Report" >
+
+        <id />
+        <field fieldName="power" type="int" />
+        <field fieldName="generatorId" type="int" />
+        <field fieldName="measurementTime" type="int" />
+
+    </document>
+</doctrine-mongo-mapping>
