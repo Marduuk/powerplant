@@ -42,7 +42,7 @@ class ReportController
      * @return JsonResponse
      * @throws \Doctrine\ODM\MongoDB\MongoDBException
      */
-    public function number(DocumentManager $dm, Request $request)
+    public function create(DocumentManager $dm, Request $request)
     {
         $report = new Report();
         $form = $this->formFactory->createNamed('report', ReportType::class, $report);
